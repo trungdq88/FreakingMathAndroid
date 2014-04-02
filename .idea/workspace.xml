@@ -15,16 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\AndroidApp\Freaking Math\gen\com\view\BuildConfig.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/BaseApplication.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/BaseApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\AndroidApp\Freaking Math\src\com\config\BaseApplication.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/BaseApplication.java" />
-      <change type="MOVED" beforePath="E:\AndroidApp\Freaking Math\src\com\config\PrefStore.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/PrefStore.java" />
-      <change type="MOVED" beforePath="E:\AndroidApp\Freaking Math\src\com\utils\GameObject.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/GameObject.java" />
-      <change type="MOVED" beforePath="E:\AndroidApp\Freaking Math\src\com\utils\Helper.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java" />
-      <change type="MOVED" beforePath="E:\AndroidApp\Freaking Math\src\com\utils\ResizeAnimation.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/ResizeAnimation.java" />
-      <change type="MOVED" beforePath="E:\AndroidApp\Freaking Math\src\com\view\GameOver.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java" />
-      <change type="MOVED" beforePath="E:\AndroidApp\Freaking Math\src\com\view\MyActivity.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" />
     </list>
     <ignored path="Freaking Math.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseApplication.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BaseApplication.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/BaseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="43" selection-start="640" selection-end="640" vertical-scroll-proportion="0.8831169" vertical-offset="0" max-vertical-offset="782">
+            <state line="49" column="26" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="952">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,32 +121,32 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="23" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="3281">
+            <state line="199" column="5" selection-start="6557" selection-end="6678" vertical-scroll-proportion="0.0" vertical-offset="2931" max-vertical-offset="3519">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2333#2834#0" expanded="true" />
-                <element signature="e#2823#2824#0" expanded="true" />
-                <element signature="e#2875#3380#0" expanded="true" />
-                <element signature="e#3369#3370#0" expanded="true" />
-                <element signature="e#4127#4782#0" expanded="true" />
-                <element signature="e#4771#4772#0" expanded="true" />
-                <element signature="e#4823#5479#0" expanded="true" />
-                <element signature="e#5468#5469#0" expanded="true" />
+                <element signature="e#2450#2951#0" expanded="true" />
+                <element signature="e#2940#2941#0" expanded="true" />
+                <element signature="e#2992#3497#0" expanded="true" />
+                <element signature="e#3486#3487#0" expanded="true" />
+                <element signature="e#4244#4982#0" expanded="true" />
+                <element signature="e#4971#4972#0" expanded="true" />
+                <element signature="e#5023#5778#0" expanded="true" />
+                <element signature="e#5767#5768#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameOver.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GameOver.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="1071">
+            <state line="64" column="5" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.9421769" vertical-offset="534" max-vertical-offset="1207">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1247#1570#0" expanded="true" />
-                <element signature="e#1559#1560#0" expanded="true" />
-                <element signature="e#1612#2113#0" expanded="true" />
-                <element signature="e#2102#2103#0" expanded="true" />
+                <element signature="e#1310#1682#0" expanded="true" />
+                <element signature="e#1671#1672#0" expanded="true" />
+                <element signature="e#1724#2225#0" expanded="true" />
+                <element signature="e#2214#2215#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -222,9 +216,9 @@
         <option value="$PROJECT_DIR$/src/com/utils/Helper.java" />
         <option value="$PROJECT_DIR$/src/freakingmath/config/BaseApplication.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java" />
-        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/BaseApplication.java" />
+        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java" />
       </list>
     </option>
   </component>
@@ -614,12 +608,12 @@
       <changelist id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="" />
       <created>1396438403371</created>
       <updated>1396438403371</updated>
-      <workItem from="1396438411986" duration="19926000" />
+      <workItem from="1396438411986" duration="21892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19926000" />
+    <option name="totallyTimeSpent" value="21892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -638,8 +632,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3306189" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36970684" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3306189" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49674267" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -761,41 +755,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java">
+    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/BaseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="1071">
+        <state line="49" column="26" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="952">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1247#1570#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1612#2113#0" expanded="true" />
-            <element signature="e#2102#2103#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="23" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="3281">
+        <state line="199" column="5" selection-start="6557" selection-end="6678" vertical-scroll-proportion="0.0" vertical-offset="2931" max-vertical-offset="3519">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2834#0" expanded="true" />
-            <element signature="e#2823#2824#0" expanded="true" />
-            <element signature="e#2875#3380#0" expanded="true" />
-            <element signature="e#3369#3370#0" expanded="true" />
-            <element signature="e#4127#4782#0" expanded="true" />
-            <element signature="e#4771#4772#0" expanded="true" />
-            <element signature="e#4823#5479#0" expanded="true" />
-            <element signature="e#5468#5469#0" expanded="true" />
+            <element signature="e#2450#2951#0" expanded="true" />
+            <element signature="e#2940#2941#0" expanded="true" />
+            <element signature="e#2992#3497#0" expanded="true" />
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#4244#4982#0" expanded="true" />
+            <element signature="e#4971#4972#0" expanded="true" />
+            <element signature="e#5023#5778#0" expanded="true" />
+            <element signature="e#5767#5768#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/BaseApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="43" selection-start="640" selection-end="640" vertical-scroll-proportion="0.8831169" vertical-offset="0" max-vertical-offset="782">
+        <state line="64" column="5" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.9421769" vertical-offset="534" max-vertical-offset="1207">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1310#1682#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1724#2225#0" expanded="true" />
+            <element signature="e#2214#2215#0" expanded="true" />
           </folding>
         </state>
       </provider>
