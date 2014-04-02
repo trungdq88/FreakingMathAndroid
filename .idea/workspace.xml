@@ -15,8 +15,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/config/BaseApplication.java" afterPath="$PROJECT_DIR$/src/com/config/BaseApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/StartAppInApp-2.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resource/click.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resource/hit.ogg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/view/Manifest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/view/R.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Freaking Math.iml" afterPath="$PROJECT_DIR$/Freaking Math.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/view/GameOver.java" afterPath="$PROJECT_DIR$/src/com/view/GameOver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/view/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/view/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/gameover.xml" afterPath="$PROJECT_DIR$/res/layout/gameover.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -85,7 +92,7 @@
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="41" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-4.68" vertical-offset="801" max-vertical-offset="1496">
+            <state line="88" column="40" selection-start="2814" selection-end="2814" vertical-scroll-proportion="-14.72" vertical-offset="1128" max-vertical-offset="2023">
               <folding />
             </state>
           </provider>
@@ -94,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseApplication.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BaseApplication.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/config/BaseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="31" selection-start="683" selection-end="683" vertical-scroll-proportion="0.4822335" vertical-offset="184" max-vertical-offset="782">
+            <state line="31" column="5" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="782">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,19 +112,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/view/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="41" selection-start="4000" selection-end="4000" vertical-scroll-proportion="0.0" vertical-offset="1133" max-vertical-offset="2601">
+            <state line="147" column="23" selection-start="5057" selection-end="5057" vertical-scroll-proportion="0.60374147" vertical-offset="2144" max-vertical-offset="3332">
               <folding>
-                <element signature="e#1767#2034#0" expanded="true" />
-                <element signature="e#2023#2024#0" expanded="true" />
-                <element signature="e#2074#2343#0" expanded="true" />
-                <element signature="e#2332#2333#0" expanded="true" />
-                <element signature="e#3212#3867#0" expanded="true" />
-                <element signature="e#3856#3857#0" expanded="true" />
-                <element signature="e#3908#4564#0" expanded="true" />
-                <element signature="e#4553#4554#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2154#2655#0" expanded="true" />
+                <element signature="e#2644#2645#0" expanded="true" />
+                <element signature="e#2696#3201#0" expanded="true" />
+                <element signature="e#3190#3191#0" expanded="true" />
+                <element signature="e#4068#4726#0" expanded="true" />
+                <element signature="e#4715#4716#0" expanded="true" />
+                <element signature="e#4767#5426#0" expanded="true" />
+                <element signature="e#5415#5416#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,9 +134,9 @@
       <file leaf-file-name="GameOver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/view/GameOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="13" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="595">
+            <state line="53" column="13" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1003">
               <folding>
-                <element signature="e#847#1170#0" expanded="true" />
+                <element signature="e#1514#2014#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,7 +145,7 @@
       <file leaf-file-name="gameover.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/gameover.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="37" selection-start="2921" selection-end="2921" vertical-scroll-proportion="-17.4" vertical-offset="874" max-vertical-offset="1479">
+            <state line="76" column="37" selection-start="2840" selection-end="2840" vertical-scroll-proportion="-17.4" vertical-offset="857" max-vertical-offset="1479">
               <folding />
             </state>
           </provider>
@@ -189,13 +197,13 @@
         <option value="$PROJECT_DIR$/res/layout/gameover.xml" />
         <option value="$PROJECT_DIR$/src/com/view/GameOver.java" />
         <option value="$PROJECT_DIR$/src/com/utils/Helper.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/framework/AndroidSound.java" />
         <option value="$PROJECT_DIR$/src/com/framework/Sound.java" />
         <option value="$PROJECT_DIR$/src/com/framework/AndroidAudio.java" />
         <option value="$PROJECT_DIR$/src/com/framework/Audio.java" />
         <option value="$PROJECT_DIR$/src/com/framework/Music.java" />
         <option value="$PROJECT_DIR$/src/com/config/BaseApplication.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/view/MyActivity.java" />
       </list>
     </option>
@@ -327,6 +335,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Freaking Math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Freaking Math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Freaking Math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Freaking Math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -558,12 +598,12 @@
       <changelist id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="" />
       <created>1396438403371</created>
       <updated>1396438403371</updated>
-      <workItem from="1396438411986" duration="18738000" />
+      <workItem from="1396438411986" duration="19251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18738000" />
+    <option name="totallyTimeSpent" value="19251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -583,7 +623,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3306189" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3159609" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6221498" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -678,7 +718,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/gameover.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="37" selection-start="2921" selection-end="2921" vertical-scroll-proportion="-17.4" vertical-offset="874" max-vertical-offset="1479">
+        <state line="76" column="37" selection-start="2840" selection-end="2840" vertical-scroll-proportion="-17.4" vertical-offset="857" max-vertical-offset="1479">
           <folding />
         </state>
       </provider>
@@ -688,35 +728,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/view/GameOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="13" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="595">
+        <state line="53" column="13" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1003">
           <folding>
-            <element signature="e#847#1170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="41" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-4.68" vertical-offset="801" max-vertical-offset="1496">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/view/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="41" selection-start="4000" selection-end="4000" vertical-scroll-proportion="0.0" vertical-offset="1133" max-vertical-offset="2601">
-          <folding>
-            <element signature="e#1767#2034#0" expanded="true" />
-            <element signature="e#2023#2024#0" expanded="true" />
-            <element signature="e#2074#2343#0" expanded="true" />
-            <element signature="e#2332#2333#0" expanded="true" />
-            <element signature="e#3212#3867#0" expanded="true" />
-            <element signature="e#3856#3857#0" expanded="true" />
-            <element signature="e#3908#4564#0" expanded="true" />
-            <element signature="e#4553#4554#0" expanded="true" />
+            <element signature="e#1514#2014#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -732,9 +746,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/config/BaseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="31" selection-start="683" selection-end="683" vertical-scroll-proportion="0.4822335" vertical-offset="184" max-vertical-offset="782">
+        <state line="31" column="5" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="782">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="40" selection-start="2814" selection-end="2814" vertical-scroll-proportion="-14.72" vertical-offset="1128" max-vertical-offset="2023">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/view/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="23" selection-start="5057" selection-end="5057" vertical-scroll-proportion="0.60374147" vertical-offset="2144" max-vertical-offset="3332">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2154#2655#0" expanded="true" />
+            <element signature="e#2644#2645#0" expanded="true" />
+            <element signature="e#2696#3201#0" expanded="true" />
+            <element signature="e#3190#3191#0" expanded="true" />
+            <element signature="e#4068#4726#0" expanded="true" />
+            <element signature="e#4715#4716#0" expanded="true" />
+            <element signature="e#4767#5426#0" expanded="true" />
+            <element signature="e#5415#5416#0" expanded="true" />
           </folding>
         </state>
       </provider>
