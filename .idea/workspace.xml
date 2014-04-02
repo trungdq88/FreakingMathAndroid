@@ -15,10 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/BaseApplication.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/BaseApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Freaking Math.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="5" selection-start="6557" selection-end="6678" vertical-scroll-proportion="0.0" vertical-offset="2931" max-vertical-offset="3519">
+            <state line="177" column="38" selection-start="6030" selection-end="6030" vertical-scroll-proportion="2.9931972" vertical-offset="1249" max-vertical-offset="3536">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2450#2951#0" expanded="true" />
@@ -130,17 +127,17 @@
                 <element signature="e#3486#3487#0" expanded="true" />
                 <element signature="e#4244#4982#0" expanded="true" />
                 <element signature="e#4971#4972#0" expanded="true" />
-                <element signature="e#5023#5778#0" expanded="true" />
-                <element signature="e#5767#5768#0" expanded="true" />
+                <element signature="e#5023#5762#0" expanded="true" />
+                <element signature="e#5751#5752#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameOver.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameOver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="5" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.9421769" vertical-offset="534" max-vertical-offset="1207">
+            <state line="63" column="32" selection-start="2353" selection-end="2353" vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1207">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1310#1682#0" expanded="true" />
@@ -217,8 +214,8 @@
         <option value="$PROJECT_DIR$/src/freakingmath/config/BaseApplication.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/BaseApplication.java" />
-        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java" />
+        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" />
       </list>
     </option>
   </component>
@@ -608,12 +605,12 @@
       <changelist id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="" />
       <created>1396438403371</created>
       <updated>1396438403371</updated>
-      <workItem from="1396438411986" duration="21892000" />
+      <workItem from="1396438411986" duration="22221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21892000" />
+    <option name="totallyTimeSpent" value="22221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -764,9 +761,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="32" selection-start="2353" selection-end="2353" vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1207">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1310#1682#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1724#2225#0" expanded="true" />
+            <element signature="e#2214#2215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="5" selection-start="6557" selection-end="6678" vertical-scroll-proportion="0.0" vertical-offset="2931" max-vertical-offset="3519">
+        <state line="177" column="38" selection-start="6030" selection-end="6030" vertical-scroll-proportion="2.9931972" vertical-offset="1249" max-vertical-offset="3536">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2450#2951#0" expanded="true" />
@@ -775,21 +785,8 @@
             <element signature="e#3486#3487#0" expanded="true" />
             <element signature="e#4244#4982#0" expanded="true" />
             <element signature="e#4971#4972#0" expanded="true" />
-            <element signature="e#5023#5778#0" expanded="true" />
-            <element signature="e#5767#5768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="5" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.9421769" vertical-offset="534" max-vertical-offset="1207">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1310#1682#0" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1724#2225#0" expanded="true" />
-            <element signature="e#2214#2215#0" expanded="true" />
+            <element signature="e#5023#5762#0" expanded="true" />
+            <element signature="e#5751#5752#0" expanded="true" />
           </folding>
         </state>
       </provider>

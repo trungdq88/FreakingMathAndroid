@@ -181,6 +181,7 @@ public class MyActivity extends Activity {
 
     private void looseGame() {
         isEnd.set(true);
+        BaseApplication.soundWhenGuessWrong();
         if (highScore > PrefStore.getMaxScore()) {
             PrefStore.setHighScore(highScore);
         }
