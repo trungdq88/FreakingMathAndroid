@@ -1,4 +1,4 @@
-package com.view;
+package com.fpt.gamestudio.freakingmath.view;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,7 +9,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.config.PrefStore;
+import com.fpt.gamestudio.freakingmath.R;
+import com.fpt.gamestudio.freakingmath.config.PrefStore;
 
 public class GameOver extends Activity {
     ImageView newGameBtn;
@@ -45,7 +46,7 @@ public class GameOver extends Activity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 int action = event.getAction();
-                if(action == MotionEvent.ACTION_DOWN) {
+                if (action == MotionEvent.ACTION_DOWN) {
                     newGameBtn.setBackgroundResource(R.drawable.play_press);
                 } else if (action == MotionEvent.ACTION_UP) {
                     newGameBtn.setBackgroundResource(R.drawable.play);

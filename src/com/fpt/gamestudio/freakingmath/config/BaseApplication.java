@@ -1,10 +1,10 @@
-package com.config;
+package com.fpt.gamestudio.freakingmath.config;
 
 import android.app.Application;
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.SoundPool;
-import com.view.R;
+import com.fpt.gamestudio.freakingmath.R;
 
 public class BaseApplication extends Application {
 

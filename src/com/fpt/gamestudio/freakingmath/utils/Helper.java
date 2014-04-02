@@ -1,7 +1,12 @@
-package com.utils;
+package com.fpt.gamestudio.freakingmath.utils;
 
+import android.content.Context;
+import android.graphics.Point;
 import android.graphics.drawable.Drawable;
-import com.config.BaseApplication;
+import android.os.Build;
+import android.view.Display;
+import android.view.WindowManager;
+import com.fpt.gamestudio.freakingmath.config.BaseApplication;
 
 import java.util.Random;
 
@@ -90,4 +95,36 @@ public class Helper {
 
         return randomNum;
     }
+
+    public static int getWidth(){
+        Context mContext = BaseApplication.getAppContext();
+        int width=0;
+        WindowManager wm = (WindowManager) mContext.getSystemService(Context.WINDOW_SERVICE);
+        Display display = wm.getDefaultDisplay();
+        if(Build.VERSION.SDK_INT>Build.VERSION_CODES.HONEYCOMB){
+            Point size = new Point();
+            display.getSize(size);
+            width = size.x;
+        }
+        else{
+            width = display.getWidth();  // deprecated
+        }
+        return width;
+    }
+
+    public static int getHeight(){
+        Context mContext = BaseApplication.getAppContext();
+        int height=0;
+        WindowManager wm = (WindowManager) mContext.getSystemService(Context.WINDOW_SERVICE);
+        Display display = wm.getDefaultDisplay();
+        if(Build.VERSION.SDK_INT>Build.VERSION_CODES.HONEYCOMB){
+            Point size = new Point();
+            display.getSize(size);
+            height = size.y;
+        }else{
+            height = display.getHeight();  // deprecated
+        }
+        return height;
+    }
+
 }

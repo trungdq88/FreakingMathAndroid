@@ -1,4 +1,4 @@
-package com.config;
+package com.fpt.gamestudio.freakingmath.config;
 
 import android.content.Context;
 import android.content.SharedPreferences;

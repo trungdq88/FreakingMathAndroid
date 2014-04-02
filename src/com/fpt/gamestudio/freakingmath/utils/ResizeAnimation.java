@@ -1,4 +1,4 @@
-package com.utils;
+package com.fpt.gamestudio.freakingmath.utils;
 
 import android.view.View;
 import android.view.ViewGroup;

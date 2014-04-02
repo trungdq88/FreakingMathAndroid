@@ -1,4 +1,4 @@
-package com.utils;
+package com.fpt.gamestudio.freakingmath.utils;
 
 /**
  * Created by ThaoHQSE60963 on 4/2/14.

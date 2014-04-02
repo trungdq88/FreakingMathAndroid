@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.view"
+          package="com.fpt.gamestudio.freakingmath"
           android:versionCode="1"
           android:versionName="1.0">
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -10,10 +10,10 @@
     <uses-sdk android:minSdkVersion="8"/>
     <application
             android:icon="@drawable/ic_launcher"
-            android:name="com.config.BaseApplication"
+            android:name="com.fpt.gamestudio.freakingmath.config.BaseApplication"
             android:label="@string/app_name">
         <activity
-                android:name="MyActivity"
+                android:name="com.fpt.gamestudio.freakingmath.view.MyActivity"
                 android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -21,16 +21,16 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".GameOver"
+                android:name="com.fpt.gamestudio.freakingmath.view.GameOver"
                 android:label="@string/app_name">
         </activity>
 
         <activity android:name="com.startapp.android.publish.list3d.List3DActivity"
-            android:taskAffinity="com.view.AppWall"
+            android:taskAffinity="com.fpt.gamestudio.freakingmath.AppWall"
             android:theme="@android:style/Theme" />
         <activity android:name="com.startapp.android.publish.AppWallActivity"
             android:theme="@android:style/Theme.Translucent"
-            android:taskAffinity="com.view.AppWall"
+            android:taskAffinity="com.fpt.gamestudio.freakingmath.AppWall"
             android:configChanges="orientation|keyboardHidden" />
     </application>
 </manifest>

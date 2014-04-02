@@ -1,9 +1,8 @@
-package com.view;
+package com.fpt.gamestudio.freakingmath.view;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.Point;
 import android.os.Bundle;
 import android.view.*;
 import android.view.animation.Animation;
@@ -11,12 +10,13 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import com.config.BaseApplication;
-import com.config.PrefStore;
+import com.fpt.gamestudio.freakingmath.R;
+import com.fpt.gamestudio.freakingmath.config.BaseApplication;
+import com.fpt.gamestudio.freakingmath.config.PrefStore;
 import com.startapp.android.publish.StartAppAd;
-import com.utils.GameObject;
-import com.utils.Helper;
-import com.utils.ResizeAnimation;
+import com.fpt.gamestudio.freakingmath.utils.GameObject;
+import com.fpt.gamestudio.freakingmath.utils.Helper;
+import com.fpt.gamestudio.freakingmath.utils.ResizeAnimation;
 
 public class MyActivity extends Activity {
 
@@ -91,10 +91,7 @@ public class MyActivity extends Activity {
             }
         });
 
-        Display display = getWindowManager().getDefaultDisplay();
-        Point size = new Point();
-        display.getSize(size);
-        final int width = size.x;
+        final int width = Helper.getWidth();
         final ResizeAnimation animation = new ResizeAnimation(progressBar, width, 7, 0, 7, 1000);
         animation.setAnimationListener(new Animation.AnimationListener() {
             @Override
@@ -124,7 +121,7 @@ public class MyActivity extends Activity {
                 }
                 if (resultOfGame) {
                     // reset game
-                    // BaseApplication.soundWhenGuessTrue();
+                    BaseApplication.soundWhenGuessTrue();
                     progressBar.getLayoutParams().width = width;
                     setGameNumber();
                     animation.start();
@@ -145,7 +142,7 @@ public class MyActivity extends Activity {
                 }
                 if (!resultOfGame) {
                     // reset game
-                    // BaseApplication.soundWhenGuessTrue();
+                    BaseApplication.soundWhenGuessTrue();
                     progressBar.getLayoutParams().width = width;
                     setGameNumber();
                     animation.start();
