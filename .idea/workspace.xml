@@ -11,7 +11,24 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="" />
+    <list default="true" id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/config/PrefStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n0.png" afterPath="$PROJECT_DIR$/res/drawable/n0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n1.png" afterPath="$PROJECT_DIR$/res/drawable/n1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n2.png" afterPath="$PROJECT_DIR$/res/drawable/n2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n3.png" afterPath="$PROJECT_DIR$/res/drawable/n3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n4.png" afterPath="$PROJECT_DIR$/res/drawable/n4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n5.png" afterPath="$PROJECT_DIR$/res/drawable/n5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n6.png" afterPath="$PROJECT_DIR$/res/drawable/n6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n7.png" afterPath="$PROJECT_DIR$/res/drawable/n7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n8.png" afterPath="$PROJECT_DIR$/res/drawable/n8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n9.png" afterPath="$PROJECT_DIR$/res/drawable/n9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/utils/Helper.java" afterPath="$PROJECT_DIR$/src/com/utils/Helper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/view/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/view/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Freaking Math.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,7 +94,7 @@
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="39" selection-start="361" selection-end="361" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="1122">
+            <state line="20" column="41" selection-start="767" selection-end="767" vertical-scroll-proportion="-7.48" vertical-offset="153" max-vertical-offset="1326">
               <folding />
             </state>
           </provider>
@@ -86,15 +103,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/view/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="2999" selection-end="2999" vertical-scroll-proportion="0.85544217" vertical-offset="874" max-vertical-offset="1615">
+            <state line="26" column="13" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1853">
               <folding>
-                <element signature="e#1547#2053#0" expanded="true" />
-                <element signature="e#2042#2043#0" expanded="true" />
-                <element signature="e#2094#2601#0" expanded="true" />
-                <element signature="e#2590#2591#0" expanded="true" />
+                <element signature="e#1964#2470#0" expanded="true" />
+                <element signature="e#2459#2460#0" expanded="true" />
+                <element signature="e#2511#3018#0" expanded="true" />
+                <element signature="e#3007#3008#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrefStore.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/config/PrefStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.17989418" vertical-offset="0" max-vertical-offset="918">
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,7 +142,7 @@
       <file leaf-file-name="Helper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/utils/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="18" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1156">
+            <state line="50" column="66" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="1139">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,6 +186,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
@@ -174,11 +205,12 @@
         <option value="$PROJECT_DIR$/src/com/utils/utils/Helper.java" />
         <option value="$PROJECT_DIR$/src/com/Helper.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/utils/GameObject.java" />
-        <option value="$PROJECT_DIR$/src/com/utils/Helper.java" />
-        <option value="$PROJECT_DIR$/src/com/view/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/com/utils/ResizeAnimation.java" />
+        <option value="$PROJECT_DIR$/src/com/view/MyActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/utils/Helper.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/config/PrefStore.java" />
       </list>
     </option>
   </component>
@@ -522,12 +554,12 @@
       <changelist id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="" />
       <created>1396438403371</created>
       <updated>1396438403371</updated>
-      <workItem from="1396438411986" duration="5546000" />
+      <workItem from="1396438411986" duration="7301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5546000" />
+    <option name="totallyTimeSpent" value="7301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -536,9 +568,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25984848" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -613,25 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/utils/Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="18" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1156">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="39" selection-start="361" selection-end="361" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/utils/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="18" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
@@ -648,14 +661,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utils/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="66" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="1139">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="41" selection-start="767" selection-end="767" vertical-scroll-proportion="-7.48" vertical-offset="153" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/view/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="2999" selection-end="2999" vertical-scroll-proportion="0.85544217" vertical-offset="874" max-vertical-offset="1615">
+        <state line="26" column="13" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1853">
           <folding>
-            <element signature="e#1547#2053#0" expanded="true" />
-            <element signature="e#2042#2043#0" expanded="true" />
-            <element signature="e#2094#2601#0" expanded="true" />
-            <element signature="e#2590#2591#0" expanded="true" />
+            <element signature="e#1964#2470#0" expanded="true" />
+            <element signature="e#2459#2460#0" expanded="true" />
+            <element signature="e#2511#3018#0" expanded="true" />
+            <element signature="e#3007#3008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Compiler/Android SDK/sources/android-17/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="26" selection-start="10587" selection-end="10587" vertical-scroll-proportion="1.5326278" vertical-offset="1970" max-vertical-offset="22202">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/config/PrefStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.17989418" vertical-offset="0" max-vertical-offset="918">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

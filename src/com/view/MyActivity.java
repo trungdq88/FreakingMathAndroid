@@ -17,6 +17,7 @@ import com.utils.ResizeAnimation;
 public class MyActivity extends Activity {
 
     boolean resultOfGame;
+    int highScore = 0;
     ImageView firstImg;
     ImageView secondImg;
     ImageView resultImg;
@@ -44,6 +45,20 @@ public class MyActivity extends Activity {
         display.getSize(size);
         final int width = size.x;
         final ResizeAnimation animation = new ResizeAnimation(progressBar, width, 15, 0, 15, 4000);
+        animation.setAnimationListener(new Animation.AnimationListener() {
+            @Override
+            public void onAnimationStart(Animation animation) {
+            }
+
+            @Override
+            public void onAnimationEnd(Animation animation) {
+                looseGame();
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+            }
+        });
 
         trueImg.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +71,7 @@ public class MyActivity extends Activity {
                     progressBar.getLayoutParams().width = width;
                     setGameNumber();
                     animation.start();
+                    highScore++;
                 } else {
                     looseGame();
                 }
@@ -74,6 +90,7 @@ public class MyActivity extends Activity {
                     progressBar.getLayoutParams().width = width;
                     setGameNumber();
                     animation.start();
+                    highScore++;
                 } else {
                     looseGame();
                 }
