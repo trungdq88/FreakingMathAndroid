@@ -103,6 +103,7 @@ public class MyActivity extends Activity {
                 }
                 if (resultOfGame) {
                     // reset game
+                    BaseApplication.soundWhenGuessTrue();
                     progressBar.getLayoutParams().width = width;
                     setGameNumber();
                     animation.start();
@@ -123,6 +124,7 @@ public class MyActivity extends Activity {
                 }
                 if (!resultOfGame) {
                     // reset game
+                    BaseApplication.soundWhenGuessTrue();
                     progressBar.getLayoutParams().width = width;
                     setGameNumber();
                     animation.start();
