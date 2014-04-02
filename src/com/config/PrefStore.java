@@ -38,7 +38,7 @@ public class PrefStore {
 
     ////////////////////////////////////////////////////////////////////
     /////////////////////////////  SETTER //////////////////////////////
-    public static void setLoginUsername(int score) {
+    public static void setHighScore(int score) {
         SharedPreferences.Editor editor = getSharedPreferences().edit();
         editor.putInt(PREF_MAX_SCORE, score);
         editor.commit();

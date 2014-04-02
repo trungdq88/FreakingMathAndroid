@@ -8,8 +8,10 @@ import android.view.Display;
 import android.view.View;
 import android.view.animation.Animation;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 import com.config.BaseApplication;
+import com.config.PrefStore;
 import com.utils.GameObject;
 import com.utils.Helper;
 import com.utils.ResizeAnimation;
@@ -21,6 +23,7 @@ public class MyActivity extends Activity {
     ImageView firstImg;
     ImageView secondImg;
     ImageView resultImg;
+    TextView highScoreTxt;
 
     /**
      * Called when the activity is first created.
@@ -33,6 +36,9 @@ public class MyActivity extends Activity {
         firstImg = (ImageView) findViewById(R.id.first);
         secondImg = (ImageView) findViewById(R.id.second);
         resultImg = (ImageView) findViewById(R.id.result);
+        highScoreTxt = (TextView) findViewById(R.id.highscore);
+
+        highScoreTxt.setText("0");
 
         final ImageView progressBar = (ImageView) findViewById(R.id.progressbar);
         progressBar.setBackgroundColor(Color.rgb(100, 100, 50));
@@ -72,6 +78,7 @@ public class MyActivity extends Activity {
                     setGameNumber();
                     animation.start();
                     highScore++;
+                    highScoreTxt.setText(highScore + "");
                 } else {
                     looseGame();
                 }
@@ -91,6 +98,7 @@ public class MyActivity extends Activity {
                     setGameNumber();
                     animation.start();
                     highScore++;
+                    highScoreTxt.setText(highScore + "");
                 } else {
                     looseGame();
                 }
@@ -110,6 +118,9 @@ public class MyActivity extends Activity {
 
     private void looseGame() {
         Toast.makeText(BaseApplication.getAppContext(), "Game Loose", Toast.LENGTH_LONG);
+        if (highScore > PrefStore.getMaxScore()) {
+            PrefStore.setHighScore(highScore);
+        }
     }
 
 

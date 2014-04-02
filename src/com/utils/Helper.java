@@ -22,8 +22,8 @@ public class Helper {
 
     public static GameObject randomGame() {
         // random number and assign to field
-        int firstNum = Helper.randomNumber(4);
-        int secondNum = Helper.randomNumber(4);
+        int firstNum = Helper.randomNumber(9);
+        int secondNum = Helper.randomNumber(9);
         int res = firstNum + secondNum;
         boolean isTrue = Helper.randomNumber(2) == 0 ? true : false;
         int diff = Helper.randomNumber(3);
@@ -35,6 +35,8 @@ public class Helper {
 
     public static Drawable getDrawableFromNumber(int num) {
         switch(num) {
+            case 0:
+                return BaseApplication.getAppContext().getResources().getDrawable(R.drawable.n0);
             case 1:
                 return BaseApplication.getAppContext().getResources().getDrawable(R.drawable.n1);
             case 2:
