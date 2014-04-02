@@ -9,6 +9,7 @@ import android.view.*;
 import android.view.animation.Animation;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.config.BaseApplication;
@@ -26,6 +27,7 @@ public class MyActivity extends Activity {
     TextView secondTxt;
     TextView resultTxt;
     TextView highScoreTxt;
+    RelativeLayout parentLayout;
 
     /**
      * Called when the activity is first created.
@@ -45,7 +47,9 @@ public class MyActivity extends Activity {
         secondTxt = (TextView) findViewById(R.id.second);
         resultTxt = (TextView) findViewById(R.id.result);
         highScoreTxt = (TextView) findViewById(R.id.highscore);
+        parentLayout = (RelativeLayout) findViewById(R.id.parentLayout);
 
+        parentLayout.setBackgroundColor(Color.parseColor(Helper.getRandomNiceColor()));
         highScoreTxt.setText("0");
 
         final ImageView progressBar = (ImageView) findViewById(R.id.progressbar);
@@ -57,15 +61,26 @@ public class MyActivity extends Activity {
         trueImg.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                trueImg.setImageDrawable(Helper.getDrawableFromResourceId(R.drawable.true_press));
+                int action = event.getAction();
+                if(action == MotionEvent.ACTION_DOWN) {
+                    trueImg.setBackgroundResource(R.drawable.true_press);
+                } else if (action == MotionEvent.ACTION_UP) {
+                    trueImg.setBackgroundResource(R.drawable.true_button);
+                }
                 return false;
             }
         });
 
+
         falseImg.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                falseImg.setImageDrawable(Helper.getDrawableFromResourceId(R.drawable.wrong_press));
+                int action = event.getAction();
+                if(action == MotionEvent.ACTION_DOWN) {
+                    falseImg.setBackgroundResource(R.drawable.wrong_press);
+                } else if (action == MotionEvent.ACTION_UP) {
+                    falseImg.setBackgroundResource(R.drawable.wrong_button);
+                }
                 return false;
             }
         });
@@ -74,7 +89,7 @@ public class MyActivity extends Activity {
         Point size = new Point();
         display.getSize(size);
         final int width = size.x;
-        final ResizeAnimation animation = new ResizeAnimation(progressBar, width, 15, 0, 15, 4000);
+        final ResizeAnimation animation = new ResizeAnimation(progressBar, width, 7, 0, 7, 1000);
         animation.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
@@ -143,6 +158,7 @@ public class MyActivity extends Activity {
         firstTxt.setText(o.first + "");
         secondTxt.setText(o.second + "");
         resultTxt.setText(o.res + "");
+        parentLayout.setBackgroundColor(Color.parseColor(Helper.getRandomNiceColor()));
     }
 
     private void looseGame() {
