@@ -18,6 +18,8 @@ import com.fpt.gamestudio.freakingmath.utils.GameObject;
 import com.fpt.gamestudio.freakingmath.utils.Helper;
 import com.fpt.gamestudio.freakingmath.utils.ResizeAnimation;
 
+import java.util.concurrent.atomic.AtomicBoolean;
+
 public class MyActivity extends Activity {
 
     boolean resultOfGame;
@@ -27,6 +29,7 @@ public class MyActivity extends Activity {
     TextView resultTxt;
     TextView highScoreTxt;
     RelativeLayout parentLayout;
+    AtomicBoolean isEnd;
 
     /** StartApp ads **/
     public StartAppAd startAppAd = new StartAppAd(this);
@@ -43,7 +46,7 @@ public class MyActivity extends Activity {
 
 
         setContentView(R.layout.main);
-
+        isEnd = new AtomicBoolean(false);
 
         /** StartApp **/
         StartAppAd.init(this, "101007880", "204108768");
@@ -116,12 +119,17 @@ public class MyActivity extends Activity {
         trueImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (isEnd.get()) {
+                    return;
+                }
+
                 if (!animation.hasEnded()) {
                     animation.cancel();
                 }
+
                 if (resultOfGame) {
-                    // reset game
                     BaseApplication.soundWhenGuessTrue();
+                    // reset game
                     progressBar.getLayoutParams().width = width;
                     setGameNumber();
                     animation.start();
@@ -137,12 +145,17 @@ public class MyActivity extends Activity {
         falseImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (isEnd.get()) {
+                    return;
+                }
+
                 if (!animation.hasEnded()) {
                     animation.cancel();
                 }
+
                 if (!resultOfGame) {
-                    // reset game
                     BaseApplication.soundWhenGuessTrue();
+                    // reset game
                     progressBar.getLayoutParams().width = width;
                     setGameNumber();
                     animation.start();
@@ -167,6 +180,8 @@ public class MyActivity extends Activity {
     }
 
     private void looseGame() {
+        isEnd.set(true);
+        BaseApplication.soundWhenGuessWrong();
         if (highScore > PrefStore.getMaxScore()) {
             PrefStore.setHighScore(highScore);
         }
@@ -181,7 +196,7 @@ public class MyActivity extends Activity {
 
     @Override
     public void onBackPressed() {
-        startAppAd.onBackPressed();
-        super.onBackPressed();
+       /* startAppAd.onBackPressed();
+        super.onBackPressed();*/
     }
 }

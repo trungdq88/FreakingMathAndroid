@@ -10,6 +10,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.fpt.gamestudio.freakingmath.R;
+import com.fpt.gamestudio.freakingmath.config.BaseApplication;
 import com.fpt.gamestudio.freakingmath.config.PrefStore;
 
 public class GameOver extends Activity {
@@ -35,6 +36,7 @@ public class GameOver extends Activity {
         newGameBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                BaseApplication.soundWhenPlay();
                 Intent intent = new Intent(GameOver.this, MyActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
@@ -54,5 +56,11 @@ public class GameOver extends Activity {
                 return false;
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+       /* startAppAd.onBackPressed();
+        super.onBackPressed();*/
     }
 }
