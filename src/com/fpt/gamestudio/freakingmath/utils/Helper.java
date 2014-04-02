@@ -51,10 +51,10 @@ public class Helper {
         int firstNum = Helper.randomNumber(maximumCurrentRange) + 1;
         int secondNum = Helper.randomNumber(maximumCurrentRange) + 1;
         int res = firstNum + secondNum;
-        boolean isTrue = Helper.randomNumber(2) == 0 ? true : false;
-        int diff = Helper.randomNumber(7);
+        boolean isTrue = Helper.randomNumber(2) == 0;
+        int diff = Helper.randomNumber(4);
         if (diff == 0) diff++;
-        boolean isPlus = Helper.randomNumber(2) - 1 > 0 ? true : false;
+        boolean isPlus = Helper.randomNumber(2) - 1 > 0;
         if (!isTrue) {
             if (res - diff <= 0) res = res + diff;
             else {
