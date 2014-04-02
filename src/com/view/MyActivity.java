@@ -3,11 +3,14 @@ package com.view;
 import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.Point;
+import android.graphics.drawable.TransitionDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Display;
 import android.view.View;
 import android.view.animation.Animation;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.config.BaseApplication;
@@ -25,6 +28,8 @@ public class MyActivity extends Activity {
     ImageView resultImg;
     TextView highScoreTxt;
 
+    RelativeLayout parentLayout;
+
     /**
      * Called when the activity is first created.
      */
@@ -32,6 +37,9 @@ public class MyActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+        parentLayout = (RelativeLayout) findViewById(R.id.parentLayout);
+        parentLayout.setBackgroundColor(Color.parseColor(Helper.getRandomNiceColor()));
 
         firstImg = (ImageView) findViewById(R.id.first);
         secondImg = (ImageView) findViewById(R.id.second);
@@ -41,7 +49,7 @@ public class MyActivity extends Activity {
         highScoreTxt.setText("0");
 
         final ImageView progressBar = (ImageView) findViewById(R.id.progressbar);
-        progressBar.setBackgroundColor(Color.rgb(100, 100, 50));
+        progressBar.setBackgroundColor(Color.parseColor("#4788f9"));
 
         ImageView trueImg = (ImageView) findViewById(R.id.true_btn);
         ImageView falseImg = (ImageView) findViewById(R.id.false_btn);
@@ -69,6 +77,13 @@ public class MyActivity extends Activity {
         trueImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String color = Helper.getRandomNiceColor();
+                Log.d("Color: ", color);
+                parentLayout.setBackgroundColor(Color.parseColor(color));
+                // parentLayout.setBackgroundResource();
+                // TransitionDrawable background = (TransitionDrawable) parentLayout.getBackground();
+                // You can pass the duration of the animation in milliseconds here
+                // background.startTransition( 1500 );
                 if (!animation.hasEnded()) {
                     animation.cancel();
                 }
