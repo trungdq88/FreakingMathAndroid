@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.fpt.gamestudio.freakingmath.R;
 import com.fpt.gamestudio.freakingmath.config.BaseApplication;
 import com.fpt.gamestudio.freakingmath.config.PrefStore;
+import com.fpt.gamestudio.freakingmath.utils.UIUtils;
 
 public class GameOver extends Activity {
     ImageView newGameBtn;
@@ -21,6 +22,8 @@ public class GameOver extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+        UIUtils.setOrientationLockPortrait(this);
 
         setContentView(R.layout.gameover);
 

@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.fpt.gamestudio.freakingmath.R;
 import com.fpt.gamestudio.freakingmath.config.BaseApplication;
 import com.fpt.gamestudio.freakingmath.config.PrefStore;
+import com.fpt.gamestudio.freakingmath.utils.UIUtils;
 import com.startapp.android.publish.StartAppAd;
 import com.fpt.gamestudio.freakingmath.utils.GameObject;
 import com.fpt.gamestudio.freakingmath.utils.Helper;
@@ -44,6 +45,7 @@ public class MyActivity extends Activity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
+        UIUtils.setOrientationLockPortrait(this);
 
         setContentView(R.layout.main);
         isEnd = new AtomicBoolean(false);
