@@ -15,19 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/textlogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/view/GameOver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/drawables.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/gameover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/utils/Helper.java" afterPath="$PROJECT_DIR$/src/com/utils/Helper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/view/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/view/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Freaking Math.iws" />
@@ -104,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/view/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="13" selection-start="2987" selection-end="2987" vertical-scroll-proportion="-0.07936508" vertical-offset="1269" max-vertical-offset="2533">
+            <state line="142" column="39" selection-start="4635" selection-end="4635" vertical-scroll-proportion="0.0" vertical-offset="1388" max-vertical-offset="2567">
               <folding>
                 <element signature="e#1767#2034#0" expanded="true" />
                 <element signature="e#2023#2024#0" expanded="true" />
@@ -167,10 +156,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Helper.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Helper.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/utils/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="30" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1666">
+            <state line="26" column="27" selection-start="688" selection-end="688" vertical-scroll-proportion="-0.0433213" vertical-offset="466" max-vertical-offset="1700">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -238,10 +227,10 @@
         <option value="$PROJECT_DIR$/src/com/utils/ResizeAnimation.java" />
         <option value="$PROJECT_DIR$/src/com/config/PrefStore.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/utils/Helper.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/gameover.xml" />
         <option value="$PROJECT_DIR$/src/com/view/GameOver.java" />
+        <option value="$PROJECT_DIR$/src/com/utils/Helper.java" />
         <option value="$PROJECT_DIR$/src/com/view/MyActivity.java" />
       </list>
     </option>
@@ -604,12 +593,12 @@
       <changelist id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="" />
       <created>1396438403371</created>
       <updated>1396438403371</updated>
-      <workItem from="1396438411986" duration="14479000" />
+      <workItem from="1396438411986" duration="17112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14479000" />
+    <option name="totallyTimeSpent" value="17112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -686,28 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/utils/ResizeAnimation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Compiler/Android SDK/sources/android-17/java/text/SimpleDateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="195" column="26" selection-start="10587" selection-end="10587" vertical-scroll-proportion="1.5326278" vertical-offset="1970" max-vertical-offset="22202">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/config/PrefStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="35" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="918">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,15 +690,6 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/utils/Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="30" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1666">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
@@ -745,6 +707,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/config/PrefStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="35" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="918">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utils/ResizeAnimation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -769,7 +749,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/view/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="13" selection-start="2987" selection-end="2987" vertical-scroll-proportion="-0.07936508" vertical-offset="1269" max-vertical-offset="2533">
+        <state line="142" column="39" selection-start="4635" selection-end="4635" vertical-scroll-proportion="0.0" vertical-offset="1388" max-vertical-offset="2567">
           <folding>
             <element signature="e#1767#2034#0" expanded="true" />
             <element signature="e#2023#2024#0" expanded="true" />
@@ -779,6 +759,15 @@
             <element signature="e#3798#3799#0" expanded="true" />
             <element signature="e#3850#4448#0" expanded="true" />
             <element signature="e#4437#4438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utils/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="27" selection-start="688" selection-end="688" vertical-scroll-proportion="-0.0433213" vertical-offset="466" max-vertical-offset="1700">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

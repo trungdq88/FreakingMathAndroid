@@ -2,7 +2,6 @@ package com.utils;
 
 import android.graphics.drawable.Drawable;
 import com.config.BaseApplication;
-import com.view.R;
 
 import java.util.Random;
 
@@ -10,54 +9,56 @@ public class Helper {
 
     private static Random r = new Random();
     private static int count = 0;
+    private static int turn = 0;
+    private static int rangeInc = 4;
+    private static int maximumCurrentRange = 7;
+    private static int firstLevel = 8;
+    private static int levelInc = 4;
+    private static int maximumRange = 100;
+
+    public static void resetSetting() {
+        count = 0;
+        turn = 0;
+        rangeInc = 4;
+        maximumCurrentRange = 7;
+        firstLevel = 8;
+        levelInc = 4;
+        maximumRange = 100;
+    }
 
     public static int randomNumber(int num) {
-        if (count++ > 5) {
+        if (count++ > 8) {
             r = new Random();
         }
         return r.nextInt(num);
     }
 
     public static GameObject randomGame() {
+        turn++;
+        if (turn == firstLevel) {
+            maximumCurrentRange = Math.min(maximumCurrentRange + rangeInc, maximumRange);
+        } else if (turn - levelInc == firstLevel) {
+            maximumCurrentRange = Math.min(maximumCurrentRange + rangeInc, maximumRange);
+            turn = firstLevel;
+        }
+
         // random number and assign to field
-        int firstNum = Helper.randomNumber(9);
-        int secondNum = Helper.randomNumber(9);
+        int firstNum = Helper.randomNumber(maximumCurrentRange) + 1;
+        int secondNum = Helper.randomNumber(maximumCurrentRange) + 1;
         int res = firstNum + secondNum;
         boolean isTrue = Helper.randomNumber(2) == 0 ? true : false;
-        int diff = Helper.randomNumber(5);
+        int diff = Helper.randomNumber(7);
         if (diff == 0) diff++;
         boolean isPlus = Helper.randomNumber(2) - 1 > 0 ? true : false;
-        res = isTrue ? res : (isPlus ? res + diff : res - diff);
+        if (!isTrue) {
+            if (res - diff <= 0) res = res + diff;
+            else {
+                res = isPlus ? res + diff : res - diff;
+            }
+        }
         return new GameObject(firstNum, secondNum, res, isTrue);
     }
 
-    public static Drawable getDrawableFromNumber(int num) {
-        switch(num) {
-            case 0:
-                return BaseApplication.getAppContext().getResources().getDrawable(R.drawable.n0);
-            case 1:
-                return BaseApplication.getAppContext().getResources().getDrawable(R.drawable.n1);
-            case 2:
-                return BaseApplication.getAppContext().getResources().getDrawable(R.drawable.n2);
-            case 3:
-                return BaseApplication.getAppContext().getResources().getDrawable(R.drawable.n3);
-            case 4:
-                return BaseApplication.getAppContext().getResources().getDrawable(R.drawable.n4);
-            case 5:
-                return BaseApplication.getAppContext().getResources().getDrawable(R.drawable.n5);
-            case 6:
-                return BaseApplication.getAppContext().getResources().getDrawable(R.drawable.n6);
-            case 7:
-                return BaseApplication.getAppContext().getResources().getDrawable(R.drawable.n7);
-            case 8:
-                return BaseApplication.getAppContext().getResources().getDrawable(R.drawable.n8);
-            case 9:
-                return BaseApplication.getAppContext().getResources().getDrawable(R.drawable.n9);
-
-            default:
-                return null;
-        }
-    }
 
     public static Drawable getDrawableFromResourceId(int id) {
         return BaseApplication.getAppContext().getResources().getDrawable(id);

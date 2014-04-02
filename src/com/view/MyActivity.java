@@ -149,6 +149,8 @@ public class MyActivity extends Activity {
         if (highScore > PrefStore.getMaxScore()) {
             PrefStore.setHighScore(highScore);
         }
+
+        Helper.resetSetting();
         Intent intent = new Intent(this, GameOver.class);
         intent.putExtra("score", highScore);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
