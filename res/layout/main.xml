@@ -24,17 +24,17 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/highscore"
             android:id="@+id/first_row">
-        <ImageView
+        <TextView
                 android:layout_width="100sp"
                 android:layout_height="100sp"
                 android:id="@+id/first"/>
 
-        <ImageView
+        <TextView
                 android:layout_width="100sp"
                 android:layout_height="100sp"
                 android:id="@+id/plus"/>
 
-        <ImageView
+        <TextView
                 android:layout_width="100sp"
                 android:layout_height="100sp"
                 android:id="@+id/second"/>
@@ -48,12 +48,13 @@
             android:id="@+id/second_row">
 
 
-        <ImageView
+        <TextView
                 android:layout_width="100sp"
                 android:layout_height="100sp"
+                android:src="@drawable/equals"
                 android:id="@+id/equal"/>
 
-        <ImageView
+        <TextView
                 android:layout_width="100sp"
                 android:layout_height="100sp"
                 android:id="@+id/result"/>

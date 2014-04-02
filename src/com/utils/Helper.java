@@ -4,8 +4,6 @@ import android.graphics.drawable.Drawable;
 import com.config.BaseApplication;
 import com.view.R;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 public class Helper {
@@ -26,7 +24,7 @@ public class Helper {
         int secondNum = Helper.randomNumber(9);
         int res = firstNum + secondNum;
         boolean isTrue = Helper.randomNumber(2) == 0 ? true : false;
-        int diff = Helper.randomNumber(3);
+        int diff = Helper.randomNumber(5);
         if (diff == 0) diff++;
         boolean isPlus = Helper.randomNumber(2) - 1 > 0 ? true : false;
         res = isTrue ? res : (isPlus ? res + diff : res - diff);
@@ -59,6 +57,10 @@ public class Helper {
             default:
                 return null;
         }
+    }
+
+    public static Drawable getDrawableFromResourceId(int id) {
+        return BaseApplication.getAppContext().getResources().getDrawable(id);
     }
 
     public static String getRandomNiceColor() {
