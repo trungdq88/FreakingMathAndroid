@@ -89,7 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:gravity="center"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="50dp"
         android:orientation="horizontal">
 
         <ImageButton
@@ -104,5 +104,11 @@
             android:layout_height="150dp"
             android:background="@drawable/wrong_button" />
     </LinearLayout>
+    <com.startapp.android.publish.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>
 

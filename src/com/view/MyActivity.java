@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import com.config.BaseApplication;
 import com.config.PrefStore;
+import com.startapp.android.publish.StartAppAd;
 import com.utils.GameObject;
 import com.utils.Helper;
 import com.utils.ResizeAnimation;
@@ -29,6 +30,8 @@ public class MyActivity extends Activity {
     TextView highScoreTxt;
     RelativeLayout parentLayout;
 
+    /** StartApp ads **/
+    public StartAppAd startAppAd = new StartAppAd(this);
     /**
      * Called when the activity is first created.
      */
@@ -42,6 +45,11 @@ public class MyActivity extends Activity {
 
 
         setContentView(R.layout.main);
+
+
+        /** StartApp **/
+        StartAppAd.init(this, "101007880", "204108768");
+
 
         firstTxt = (TextView) findViewById(R.id.first);
         secondTxt = (TextView) findViewById(R.id.second);
@@ -170,5 +178,11 @@ public class MyActivity extends Activity {
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         finish();
+    }
+
+    @Override
+    public void onBackPressed() {
+        startAppAd.onBackPressed();
+        super.onBackPressed();
     }
 }
