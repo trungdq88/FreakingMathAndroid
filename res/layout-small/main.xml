@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:text="1"
             android:textColor="#fff"
-            android:textSize="100dp" />
+            android:textSize="70dp" />
 
         <TextView
             android:id="@+id/plus"
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:text="+"
             android:textColor="#fff"
-            android:textSize="100dp" />
+            android:textSize="70dp" />
 
         <TextView
             android:id="@+id/second"
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:text="1"
             android:textColor="#fff"
-            android:textSize="100dp" />
+            android:textSize="70dp" />
 
     </LinearLayout>
 
@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:text="="
             android:textColor="#fff"
-            android:textSize="100dp" />
+            android:textSize="70dp" />
 
         <TextView
             android:id="@+id/result"
@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:text="2"
             android:textColor="#fff"
-            android:textSize="100dp" />
+            android:textSize="70dp" />
 
     </LinearLayout>
 
