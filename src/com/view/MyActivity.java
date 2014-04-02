@@ -1,12 +1,11 @@
 package com.view;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Point;
 import android.os.Bundle;
-import android.view.Display;
-import android.view.MotionEvent;
-import android.view.View;
+import android.view.*;
 import android.view.animation.Animation;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -34,6 +33,12 @@ public class MyActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+
         setContentView(R.layout.main);
 
         firstTxt = (TextView) findViewById(R.id.first);
@@ -44,7 +49,7 @@ public class MyActivity extends Activity {
         highScoreTxt.setText("0");
 
         final ImageView progressBar = (ImageView) findViewById(R.id.progressbar);
-        progressBar.setBackgroundColor(Color.rgb(100, 100, 50));
+        progressBar.setBackgroundColor(Color.parseColor("#4788f9"));
 
         final ImageButton trueImg = (ImageButton) findViewById(R.id.true_btn);
         final ImageButton falseImg = (ImageButton) findViewById(R.id.false_btn);
@@ -77,7 +82,9 @@ public class MyActivity extends Activity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-                looseGame();
+                if (progressBar.getWidth() == 0) {
+                    looseGame();
+                }
             }
 
             @Override
@@ -139,9 +146,13 @@ public class MyActivity extends Activity {
     }
 
     private void looseGame() {
-        Toast.makeText(BaseApplication.getAppContext(), "Game Loose", Toast.LENGTH_LONG);
         if (highScore > PrefStore.getMaxScore()) {
             PrefStore.setHighScore(highScore);
         }
+        Intent intent = new Intent(this, GameOver.class);
+        intent.putExtra("score", highScore);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        finish();
     }
 }
