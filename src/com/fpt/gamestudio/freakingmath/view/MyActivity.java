@@ -97,7 +97,7 @@ public class MyActivity extends Activity {
         });
 
         final int width = Helper.getWidth();
-        final ResizeAnimation animation = new ResizeAnimation(progressBar, width, 7, 0, 7, 1000);
+        final ResizeAnimation animation = new ResizeAnimation(progressBar, width, 7, 0, 7, 1200);
         animation.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
@@ -168,7 +168,7 @@ public class MyActivity extends Activity {
                 }
             }
         });
-
+        Helper.resetSetting();
         setGameNumber();
     }
 

@@ -24,10 +24,9 @@ public class Helper {
     public static void resetSetting() {
         count = 0;
         turn = 0;
-        rangeInc = 4;
-        maximumCurrentRange = 7;
-        firstLevel = 8;
-        levelInc = 4;
+        rangeInc = 3;
+        maximumCurrentRange = 3;
+        levelInc = 3;
         maximumRange = 100;
     }
 
@@ -40,12 +39,16 @@ public class Helper {
 
     public static GameObject randomGame() {
         turn++;
-        if (turn == firstLevel) {
-            maximumCurrentRange = Math.min(maximumCurrentRange + rangeInc, maximumRange);
-        } else if (turn - levelInc == firstLevel) {
-            maximumCurrentRange = Math.min(maximumCurrentRange + rangeInc, maximumRange);
-            turn = firstLevel;
+        if (turn % levelInc == 0) {
+            maximumCurrentRange += rangeInc;
+            if (maximumCurrentRange > maximumRange) maximumCurrentRange = maximumRange;
         }
+//        if (turn == firstLevel) {
+//            maximumCurrentRange = Math.min(maximumCurrentRange + rangeInc, maximumRange);
+//        } else if (turn - levelInc == firstLevel) {
+//            maximumCurrentRange = Math.min(maximumCurrentRange + rangeInc, maximumRange);
+//            turn = firstLevel;
+//        }
 
         // random number and assign to field
         int firstNum = Helper.randomNumber(maximumCurrentRange) + 1;
