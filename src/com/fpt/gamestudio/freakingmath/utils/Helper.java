@@ -53,18 +53,37 @@ public class Helper {
         // random number and assign to field
         int firstNum = Helper.randomNumber(maximumCurrentRange) + 1;
         int secondNum = Helper.randomNumber(maximumCurrentRange) + 1;
+
+        // random head
+
+
+        // real result
         int res = firstNum + secondNum;
-        boolean isTrue = Helper.randomNumber(2) == 0;
-        int diff = Helper.randomNumber(4);
-        if (diff == 0) diff++;
-        boolean isPlus = Helper.randomNumber(2) - 1 > 0;
+        // should generate true answer or wrong answer
+        boolean isTrue = randomBoolean();
+        // should add or minus difference
+        boolean isPlus = randomBoolean();
         if (!isTrue) {
-            if (res - diff <= 0) res = res + diff;
-            else {
-                res = isPlus ? res + diff : res - diff;
+            // prevent usr just guess unit
+            boolean isGenerateSameUnit = Helper.randomBoolean();
+            if (isGenerateSameUnit && res > 10) {
+                res = isPlus ? res - 10 : res + 10;
+            } else {
+                // difference when generate wrong
+                int diff = Helper.randomNumber(5);
+                // prevent change nothing
+                if (diff == 0) diff++;
+                if (res - diff <= 0) res = res + diff;
+                else {
+                    res = isPlus ? res + diff : res - diff;
+                }
             }
         }
         return new GameObject(firstNum, secondNum, res, isTrue);
+    }
+
+    public static boolean randomBoolean() {
+        return Helper.randomNumber(2) == 0;
     }
 
 
