@@ -2,6 +2,7 @@ package com.fpt.gamestudio.freakingmath.view;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -35,6 +36,7 @@ public class GameOver extends Activity {
 
         currentScoreTxt.setText(highScore + "");
         bestScoreTxt.setText(PrefStore.getMaxScore() + "");
+        if (highScore == PrefStore.getMaxScore()) bestScoreTxt.setTextColor(Color.YELLOW);
 
         newGameBtn.setOnClickListener(new View.OnClickListener() {
             @Override

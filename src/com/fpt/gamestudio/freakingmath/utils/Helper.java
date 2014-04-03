@@ -15,19 +15,22 @@ public class Helper {
     private static Random r = new Random();
     private static int count = 0;
     private static int turn = 0;
-    private static int rangeInc = 4;
-    private static int maximumCurrentRange = 7;
+    private static int rangeTailInc = 4;
+    private static int rangeHeadInc = 1;
+    private static int maximumCurrentHeadRange = 0;
+    private static int maximumCurrentTailRange = 7;
     private static int firstLevel = 8;
     private static int levelInc = 4;
-    private static int maximumRange = 100;
+    private static int maximumHeadRange = 100;
+    private static int maximumTailRange = 20;
 
     public static void resetSetting() {
         count = 0;
         turn = 0;
-        rangeInc = 3;
-        maximumCurrentRange = 3;
+        rangeTailInc = 3;
+        maximumCurrentTailRange = 3;
         levelInc = 3;
-        maximumRange = 100;
+        maximumHeadRange = 100;
     }
 
     public static int randomNumber(int num) {
@@ -40,22 +43,28 @@ public class Helper {
     public static GameObject randomGame() {
         turn++;
         if (turn % levelInc == 0) {
-            maximumCurrentRange += rangeInc;
-            if (maximumCurrentRange > maximumRange) maximumCurrentRange = maximumRange;
+            maximumCurrentTailRange += rangeTailInc;
+            maximumCurrentHeadRange += rangeHeadInc;
+            if (maximumCurrentTailRange > maximumTailRange) maximumCurrentTailRange = maximumTailRange;
+            if (maximumCurrentHeadRange > maximumHeadRange) maximumCurrentHeadRange = maximumHeadRange;
         }
+
 //        if (turn == firstLevel) {
-//            maximumCurrentRange = Math.min(maximumCurrentRange + rangeInc, maximumRange);
+//            maximumCurrentTailRange = Math.min(maximumCurrentTailRange + rangeTailInc, maximumHeadRange);
 //        } else if (turn - levelInc == firstLevel) {
-//            maximumCurrentRange = Math.min(maximumCurrentRange + rangeInc, maximumRange);
+//            maximumCurrentTailRange = Math.min(maximumCurrentTailRange + rangeTailInc, maximumHeadRange);
 //            turn = firstLevel;
 //        }
 
         // random number and assign to field
-        int firstNum = Helper.randomNumber(maximumCurrentRange) + 1;
-        int secondNum = Helper.randomNumber(maximumCurrentRange) + 1;
+        int firstNum =  + Helper.randomNumber(maximumCurrentTailRange) + 1;
+        int secondNum = Helper.randomNumber(maximumCurrentTailRange) + 1;
 
         // random head
-
+        if (maximumCurrentTailRange > 15) {
+            if (firstNum != 1) firstNum += Helper.randomNumber(maximumCurrentHeadRange);
+            if (secondNum != 1) secondNum += Helper.randomNumber(maximumCurrentHeadRange);
+        }
 
         // real result
         int res = firstNum + secondNum;
@@ -67,7 +76,7 @@ public class Helper {
             // prevent usr just guess unit
             boolean isGenerateSameUnit = Helper.randomBoolean();
             if (isGenerateSameUnit && res > 10) {
-                res = isPlus ? res - 10 : res + 10;
+                res = isPlus ? res + 10 : res - 10;
             } else {
                 // difference when generate wrong
                 int diff = Helper.randomNumber(5);
