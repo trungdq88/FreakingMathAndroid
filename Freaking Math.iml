@@ -16,6 +16,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="StartAppInApp-2.2.2" level="project" />
+    <orderEntry type="library" name="libGoogleAnalyticsServices" level="project" />
   </component>
 </module>
 
