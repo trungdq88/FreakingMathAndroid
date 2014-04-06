@@ -88,7 +88,15 @@ public class Helper {
                 }
             }
         }
-        return new GameObject(firstNum, secondNum, res, isTrue);
+
+        // last random. random operand
+        boolean isPlusOperate = randomBoolean();
+        if (!isPlusOperate) {
+            int tmp = firstNum;
+            firstNum = res;
+            res = tmp;
+        }
+        return new GameObject(firstNum, secondNum, res, isTrue, isPlusOperate);
     }
 
     public static boolean randomBoolean() {

@@ -29,6 +29,7 @@ public class MyActivity extends Activity {
     TextView firstTxt;
     TextView secondTxt;
     TextView resultTxt;
+    TextView operatorTxt;
     TextView highScoreTxt;
     RelativeLayout parentLayout;
     AtomicBoolean isEnd;
@@ -58,6 +59,7 @@ public class MyActivity extends Activity {
         firstTxt = (TextView) findViewById(R.id.first);
         secondTxt = (TextView) findViewById(R.id.second);
         resultTxt = (TextView) findViewById(R.id.result);
+        operatorTxt = (TextView) findViewById(R.id.operator);
         highScoreTxt = (TextView) findViewById(R.id.highscore);
         parentLayout = (RelativeLayout) findViewById(R.id.parentLayout);
 
@@ -179,6 +181,8 @@ public class MyActivity extends Activity {
         firstTxt.setText(o.first + "");
         secondTxt.setText(o.second + "");
         resultTxt.setText(o.res + "");
+        if (o.isPlusOperate) operatorTxt.setText("+");
+        else operatorTxt.setText("-");
         parentLayout.setBackgroundColor(Color.parseColor(Helper.getRandomNiceColor()));
     }
 

@@ -15,9 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/GameObject.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/GameObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-small/main.xml" afterPath="$PROJECT_DIR$/res/layout-small/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Freaking Math.iws" />
@@ -85,10 +87,29 @@
       <file leaf-file-name="Helper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="56" selection-start="5748" selection-end="5748" vertical-scroll-proportion="0.0" vertical-offset="2162" max-vertical-offset="2839">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="110" column="25" selection-start="3831" selection-end="3831" vertical-scroll-proportion="0.0" vertical-offset="1543" max-vertical-offset="2839">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout-small/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="37" selection-start="1521" selection-end="1529" vertical-scroll-proportion="0.39922482" vertical-offset="679" max-vertical-offset="2108">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/GameObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="77" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,18 +117,28 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="49" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="2541" max-vertical-offset="3366">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="184" column="75" selection-start="6422" selection-end="6422" vertical-scroll-proportion="0.0" vertical-offset="2132" max-vertical-offset="3111">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameOver.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="37" selection-start="1522" selection-end="1530" vertical-scroll-proportion="-8.16" vertical-offset="578" max-vertical-offset="2108">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameOver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="48" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.5759717" vertical-offset="483" max-vertical-offset="1190">
+            <state line="59" column="17" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.0" vertical-offset="602" max-vertical-offset="1190">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,16 +182,18 @@
         <option value="$PROJECT_DIR$/src/com/framework/Audio.java" />
         <option value="$PROJECT_DIR$/src/com/framework/Music.java" />
         <option value="$PROJECT_DIR$/src/com/config/BaseApplication.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/view/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/com/utils/Helper.java" />
         <option value="$PROJECT_DIR$/src/freakingmath/config/BaseApplication.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/BaseApplication.java" />
         <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/UIUtils.java" />
-        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java" />
         <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java" />
+        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout-small/main.xml" />
       </list>
     </option>
   </component>
@@ -196,6 +229,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -308,6 +342,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="layout-small" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Freaking Math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Freaking Math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -329,7 +381,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,20 +438,17 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -431,17 +479,20 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -555,23 +606,24 @@
       <created>1396438403371</created>
       <updated>1396438403371</updated>
       <workItem from="1396438411986" duration="25187000" />
-      <workItem from="1396500700614" duration="1792000" />
+      <workItem from="1396500700614" duration="4406000" />
+      <workItem from="1396770143840" duration="1351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26979000" />
+    <option name="totallyTimeSpent" value="30944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2003035" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32736155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -586,12 +638,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20075758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -618,10 +670,31 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="28" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="2618">
+        <state line="155" column="56" selection-start="5748" selection-end="5748" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="49" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="3570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="90" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="28" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="2618">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -633,13 +706,6 @@
     <entry file="file://D:/Compiler/Android SDK/sources/android-17/java/text/SimpleDateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="195" column="26" selection-start="10587" selection-end="10587" vertical-scroll-proportion="1.5326278" vertical-offset="1970" max-vertical-offset="22202" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/PrefStore.java">
@@ -655,19 +721,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/gameover.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="37" selection-start="2840" selection-end="2840" vertical-scroll-proportion="0.77264655" vertical-offset="857" max-vertical-offset="1479">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
@@ -685,18 +751,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="26" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.9132653" vertical-offset="262" max-vertical-offset="952">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="19" selection-start="2814" selection-end="2814" vertical-scroll-proportion="-50.92" vertical-offset="206" max-vertical-offset="2108">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,36 +760,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="200" column="70" selection-start="6993" selection-end="6993" vertical-scroll-proportion="5.782313" vertical-offset="0" max-vertical-offset="3638">
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="49" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="2541" max-vertical-offset="3366">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="56" selection-start="5748" selection-end="5748" vertical-scroll-proportion="0.0" vertical-offset="2162" max-vertical-offset="2839">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="48" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.5759717" vertical-offset="483" max-vertical-offset="1190">
+        <state line="59" column="17" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.0" vertical-offset="602" max-vertical-offset="1190">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="77" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Compiler/Android SDK/sources/android-17/android/widget/LinearLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="52" selection-start="2742" selection-end="2742" vertical-scroll-proportion="0.53571427" vertical-offset="433" max-vertical-offset="31127">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="75" selection-start="6422" selection-end="6422" vertical-scroll-proportion="0.0" vertical-offset="2132" max-vertical-offset="3111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="25" selection-start="3831" selection-end="3831" vertical-scroll-proportion="0.0" vertical-offset="1543" max-vertical-offset="2839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="37" selection-start="1522" selection-end="1530" vertical-scroll-proportion="-8.16" vertical-offset="578" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-small/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="37" selection-start="1521" selection-end="1529" vertical-scroll-proportion="0.39922482" vertical-offset="679" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>
