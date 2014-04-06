@@ -18,9 +18,8 @@ public class Helper {
     private static int rangeTailInc = 4;
     private static int rangeHeadInc = 1;
     private static int maximumCurrentHeadRange = 0;
-    private static int maximumCurrentTailRange = 7;
-    private static int firstLevel = 8;
-    private static int levelInc = 4;
+    private static int maximumCurrentTailRange = 3;
+    private static int levelInc = 3;
     private static int maximumHeadRange = 100;
     private static int maximumTailRange = 20;
 
@@ -28,9 +27,12 @@ public class Helper {
         count = 0;
         turn = 0;
         rangeTailInc = 3;
+        maximumCurrentHeadRange = 0;
         maximumCurrentTailRange = 3;
         levelInc = 3;
         maximumHeadRange = 100;
+        maximumTailRange = 20;
+        rangeHeadInc = 1;
     }
 
     public static int randomNumber(int num) {
