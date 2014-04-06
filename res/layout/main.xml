@@ -44,7 +44,7 @@
             android:textSize="100dp" />
 
         <TextView
-            android:id="@+id/plus"
+            android:id="@+id/operator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+"
