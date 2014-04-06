@@ -123,6 +123,7 @@ public class MyActivity extends Activity {
         trueImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (progressBar.getWidth() == 0) isEnd.set(true);
                 if (isEnd.get()) {
                     return;
                 }
@@ -149,6 +150,7 @@ public class MyActivity extends Activity {
         falseImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (progressBar.getWidth() == 0) isEnd.set(true);
                 if (isEnd.get()) {
                     return;
                 }
