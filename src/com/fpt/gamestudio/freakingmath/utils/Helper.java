@@ -26,13 +26,13 @@ public class Helper {
     public static void resetSetting() {
         count = 0;
         turn = 0;
-        rangeTailInc = 3;
+        rangeTailInc = 4;
+        rangeHeadInc = 1;
         maximumCurrentHeadRange = 0;
         maximumCurrentTailRange = 3;
         levelInc = 3;
         maximumHeadRange = 100;
         maximumTailRange = 20;
-        rangeHeadInc = 1;
     }
 
     public static int randomNumber(int num) {

@@ -15,7 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fbad703-e7a3-4fb0-b91b-9a5a4081f883" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/ResizeAnimation.java" afterPath="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/ResizeAnimation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Freaking Math.iws" />
@@ -83,7 +84,7 @@
       <file leaf-file-name="Helper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="5" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839">
+            <state line="35" column="5" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2873">
               <folding />
             </state>
           </provider>
@@ -104,17 +105,33 @@
       <file leaf-file-name="GameObject.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/GameObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="77" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="459">
+            <state line="13" column="77" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ResizeAnimation.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/ResizeAnimation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="0" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.7180851" vertical-offset="393" max-vertical-offset="833">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="0" selection-start="5440" selection-end="5440" vertical-scroll-proportion="0.82711864" vertical-offset="1603" max-vertical-offset="3145">
-              <folding />
+            <state line="137" column="33" selection-start="4966" selection-end="4966" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="3655">
+              <folding>
+                <element signature="e#2700#3201#0" expanded="false" />
+                <element signature="e#3190#3191#0" expanded="false" />
+                <element signature="e#3242#3747#0" expanded="false" />
+                <element signature="e#3736#3737#0" expanded="false" />
+                <element signature="e#4494#5298#0" expanded="false" />
+                <element signature="e#5339#6144#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,10 +201,11 @@
         <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/UIUtils.java" />
         <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/GameOver.java" />
         <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/GameObject.java" />
-        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/layout-small/main.xml" />
         <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java" />
+        <option value="$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/ResizeAnimation.java" />
       </list>
     </option>
   </component>
@@ -602,12 +620,12 @@
       <workItem from="1396438411986" duration="25187000" />
       <workItem from="1396500700614" duration="4406000" />
       <workItem from="1396770143840" duration="2114000" />
-      <workItem from="1396796662469" duration="733000" />
+      <workItem from="1396796662469" duration="1377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32440000" />
+    <option name="totallyTimeSpent" value="33084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -617,7 +635,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32736155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3262987" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -690,7 +708,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="184" column="75" selection-start="6422" selection-end="6422" vertical-scroll-proportion="0.0" vertical-offset="3128" max-vertical-offset="3638">
-          <folding />
+          <folding>
+            <element signature="e#2700#3201#0" expanded="false" />
+            <element signature="e#3190#3191#0" expanded="false" />
+            <element signature="e#3242#3747#0" expanded="false" />
+            <element signature="e#3736#3737#0" expanded="false" />
+            <element signature="e#4494#5298#0" expanded="false" />
+            <element signature="e#5339#6144#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -721,7 +746,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="49" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="3570">
-          <folding />
+          <folding>
+            <element signature="e#2700#3201#0" expanded="false" />
+            <element signature="e#3190#3191#0" expanded="false" />
+            <element signature="e#3242#3747#0" expanded="false" />
+            <element signature="e#3736#3737#0" expanded="false" />
+            <element signature="e#4494#5298#0" expanded="false" />
+            <element signature="e#5339#6144#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -752,15 +784,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/config/PrefStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="35" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="918">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/ResizeAnimation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782">
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -838,6 +861,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="33" selection-start="4966" selection-end="4966" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="3655">
+          <folding>
+            <element signature="e#2700#3201#0" expanded="false" />
+            <element signature="e#3190#3191#0" expanded="false" />
+            <element signature="e#3242#3747#0" expanded="false" />
+            <element signature="e#3736#3737#0" expanded="false" />
+            <element signature="e#4494#5298#0" expanded="false" />
+            <element signature="e#5339#6144#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="5" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2873">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="77" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
@@ -845,16 +889,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/Helper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/utils/ResizeAnimation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="5" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fpt/gamestudio/freakingmath/view/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="0" selection-start="5440" selection-end="5440" vertical-scroll-proportion="0.82711864" vertical-offset="1603" max-vertical-offset="3162">
+        <state line="44" column="0" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.7180851" vertical-offset="393" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
