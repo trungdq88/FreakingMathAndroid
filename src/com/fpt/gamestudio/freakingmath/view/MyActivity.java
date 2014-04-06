@@ -14,6 +14,7 @@ import com.fpt.gamestudio.freakingmath.R;
 import com.fpt.gamestudio.freakingmath.config.BaseApplication;
 import com.fpt.gamestudio.freakingmath.config.PrefStore;
 import com.fpt.gamestudio.freakingmath.utils.UIUtils;
+import com.google.analytics.tracking.android.EasyTracker;
 import com.startapp.android.publish.StartAppAd;
 import com.fpt.gamestudio.freakingmath.utils.GameObject;
 import com.fpt.gamestudio.freakingmath.utils.Helper;
@@ -206,5 +207,17 @@ public class MyActivity extends Activity {
     public void onBackPressed() {
        /* startAppAd.onBackPressed();
         super.onBackPressed();*/
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        EasyTracker.getInstance(this).activityStart(this);  // Add this method.
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        EasyTracker.getInstance(this).activityStop(this);  // Add this method.
     }
 }
